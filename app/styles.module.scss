@@ -1,0 +1,23 @@
+.padded_container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    * {
+
+    }
+}
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+
+    width: 288px;
+    height: fit-content;
+    padding-bottom: 128px;
+    gap: 12px;
+}
